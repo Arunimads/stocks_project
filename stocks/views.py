@@ -1,13 +1,11 @@
-from rest_framework import status
-from rest_framework.response import Response
-from rest_framework.decorators import api_view
+from rest_framework import generics
 from .models import Stocks
 from .serializers import StocksSerializer
 
-@api_view(['POST'])
-def save_stock_data(request):
-    serializer = StocksSerializer(data=request.data)
-    if serializer.is_valid():
-        serializer.save()
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
-    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+class StocksListCreateView(generics.ListCreateAPIView):
+    queryset = Stocks.objects.all()
+    serializer_class = StocksSerializer
+
+class StocksDetailView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Stocks.objects.all()
+    serializer_class = StocksSerializer
