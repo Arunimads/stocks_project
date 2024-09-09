@@ -1,0 +1,5 @@
+symbol_type,stock_name,symbol_name,expiry_date,strike_price,order_type,entry_type,option_type,created_at
+stock,Tata Consultancy Services,,2024-09-09,,,,,
+option,,BankNifty,2024-08-28,44000,Buy Order,Market Order,Put Option,
+option,,Nifty,2024-10-02,19200,Sell Order,Limit Order,Put Option,
+stock,Kotak Mahindra Bank,Nifty,2024-10-02,19200,Sell Order,Limit Order,Put Option,
