@@ -1,5 +1,26 @@
 symbol_type,stock_name,symbol_name,expiry_date,strike_price,order_type,entry_type,option_type,created_at
-stock,Tata Consultancy Services,,2024-09-09,,,,,
-option,,BankNifty,2024-08-28,44000,Buy Order,Market Order,Put Option,
-option,,Nifty,2024-10-02,19200,Sell Order,Limit Order,Put Option,
-stock,Kotak Mahindra Bank,Nifty,2024-10-02,19200,Sell Order,Limit Order,Put Option,
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,45,2
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,45,2
+option,,BANK NIFTY,2024-08-28,46000 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,233
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,1200,400
+option,,BANK NIFTY,2024-08-28,44500 CE,SELL,l,Call Option,,
+option,,BANK NIFTY,2024-08-28,44500 CE,BUY,l,Call Option,23,12
+option,none,NIFTY,2024-08-28,19200 CE,BUY,l,Call Option,500,400
+option,none,BANK NIFTY,2024-08-28,44500 PE,SELL,m,Put Option,,3
+option,none,BANK NIFTY,2024-08-28,44500 CE,SELL,l,Call Option,23,3
+option,none,BANK NIFTY,2024-08-28,44500 CE,SELL,l,Call Option,23,3
+option,none,BANK NIFTY,2024-08-28,44500 CE,SELL,l,Call Option,23,3
+option,none,BANK NIFTY,2024-08-28,44500 CE,SELL,l,Call Option,23,3
+option,none,BANK NIFTY,2024-08-28,44500 CE,SELL,l,Call Option,23,3
+option,none,BANK NIFTY,2024-08-28,44500 CE,SELL,l,Call Option,23,3
+option,none,BANK NIFTY,2024-08-28,46000 CE,BUY,l,Call Option,1200,500
+option,none,BANK NIFTY,2024-08-28,44000 CE,BUY,l,Call Option,1200,400
+stock,none,NIFTY,2024-09-12, PE,SELL,l,,,
